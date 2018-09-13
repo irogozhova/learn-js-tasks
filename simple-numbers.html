@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<script>
+
+
+		for (var a = 2; a <= 10; a++) {
+			var isSimple = true;
+			for (var b = 2; b <= a - 1; b++) {
+				if (a % b == 0) {
+					isSimple = false;
+				}
+			}
+			if (isSimple == true) {
+				alert(a);
+			}
+		}
+
+
+
+
+	</script>
+
+</body>
+</html>
